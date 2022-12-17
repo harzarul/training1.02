@@ -1,0 +1,10 @@
+export {default as Navbar} from './Navbar';
+export {default as Hero} from './Hero';
+export {default as Trending} from './Trending';
+export {default as TopRated} from './TopRated';
+export {default as Browse} from './Browse';
+export {default as Discover} from './Discover';
+export {default as Highlight} from './Highlight';
+export {default as How} from './How';
+export {default as Subscribe} from './Subscribe';
+export {default as Footer} from './Footer';
