@@ -21,28 +21,21 @@ ul {
     list-style: none;
 }
 
-.hero__background {
-    background-image: url();
+.highlight__background {
+    background-image: url(../assets//HighlightBg.jpg);
     background-size: cover;
     background-position: top;
-}
-
-.discover__background {
-    background-image: url();
-    background-size: cover;
-    background-position: center;
-}
-
-.footer__background {
-    background-image: url();
-    background-size: cover;
-    background-position: center;
 }
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.7);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+
+.blue__gradient {
+    background: rgb(0, 59, 92);
+    background: linear-gradient(0deg, rgba(0, 59, 92, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .sidebar {

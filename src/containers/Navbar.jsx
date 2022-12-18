@@ -41,7 +41,7 @@ const Navbar = () => {
             {toggle ? <HiMenuAlt3 className="text-white w-[28px] h-[28px] object-contain"
               onClick={() => setToggle(!toggle)}/> : <AiOutlineCloseSquare className="text-white w-[28px] h-[28px] object-contain"
               onClick={() => setToggle(!toggle)}/>}
-            <div className={`${toggle ? 'hidden' : 'flex'} p-6 bg-black absolute top-14 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+            <div className={`${toggle ? 'hidden' : 'flex'} p-6 bg-black absolute top-14 right-10 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
               <ul className="list-none flex flex-col justify-center items-start flex-1">
                 {navLinks.map((link,index) => (
                   <li className={`font-poppins font-normal cursor-pointer text-[16px] mx-3 ${active === link.id ? 'text-purple' : 'text-white'}`}
