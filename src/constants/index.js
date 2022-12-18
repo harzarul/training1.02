@@ -1,5 +1,5 @@
 
-import { Trending1, Trending2, Trending3, Trending4, Trending5, Trending6, Trending7, Trending8, Trending9, Trending99,TopIcon1, TopIcon2, TopIcon3, TopIcon4, TopIcon5, TopIcon6, TopIcon7, TopIcon8, TopIcon9, TopIcon10, TopIcon11, TopIcon12, Browse1, Browse2, Browse3, Browse4, Browse5, Browse6, Browse7, Browse8, Discover1, Discover2, Discover3,} from "./images"
+import { Trending1, Trending2, Trending3, Trending4, Trending5, Trending6, Trending7, Trending8, Trending9, Trending99,TopIcon1, TopIcon2, TopIcon3, TopIcon4, TopIcon5, TopIcon6, TopIcon7, TopIcon8, TopIcon9, TopIcon10, TopIcon11, TopIcon12, Browse1, Browse2, Browse3, Browse4, Browse5, Browse6, Browse7, Browse8, Discover1, Discover2, Discover3, How1, How2, How3,} from "./images"
 
 export const navLinks = [
     {
@@ -197,5 +197,26 @@ export const Discovers = [
     {
         id: '3',
         img: Discover3,
+    },
+]
+
+export const Works = [
+    {
+        id: "1",
+        img: How1,
+        head: 'Setup Your Wallet',
+        text: 'Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.',
+    },
+    {
+        id: "2",
+        img: How2,
+        head: 'Create Collection',
+        text: 'Upload your work and setup your collection. Add a description, social links and floor price.',
+    },
+    {
+        id: "3",
+        img: How3,
+        head: 'Start Earning',
+        text: 'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.',
     },
 ]
